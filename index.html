@@ -147,8 +147,9 @@
         </section>
 
         <!-- Information -->
-        <section class="content-section bg-primary text-white">
+        <section class="content-section bg-light text-black">
             <div class="container px-4 px-lg-5 text-center">
+				<center><hr width="80%" size="1", noshade></center>
                 <p class="mb-4" style="font-family: 'noto sans', serif; font-size: 22px;">마음 전하실 곳</p>
                     <div id="foldableSection">
                     <p style="font-family: 'noto sans', serif; font-size: 18px;" class="toggle-button" onclick="toggleFoldable3()">신랑측 계좌번호 확인하기<span id="toggleIcon3">▼</span></p>
@@ -196,9 +197,44 @@
 					<div id="foldableSection">
 					 <p style="font-family: 'noto sans', serif; font-size: 18px;" class="toggle-button" onclick="toggleFoldable4()">신부측 계좌번호 확인하기<span id="toggleIcon4">▼</span></p>
                     <div class="foldable-content4" style="display: none;">
-                        <p style="font-family: 'noto sans', serif; font-size: 18px;"><br>(신부) 국민 98823-0367-50 유지은<br></p>
-						<p style="font-family: 'noto sans', serif; font-size: 18px;">(부) 국민 656525-91-108353 유기철</p><br>
-						<p style="font-family: 'noto sans', serif; font-size: 18px;">(모) 국민 054902-04-165144 송혜순</p><br>
+                        <table style="width: 100%; border-collapse: collapse; background-color: #f5f5f5; font-family: 'Noto Sans', sans-serif; font-size: 18px; color: #000;">
+  <tr>
+    <td style="padding: 8px;">신부</td>
+    <td style="padding: 8px;">
+      국민 98823-0367-50 유지은
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="groomAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">부</td>
+    <td style="padding: 8px;">
+      국민 656525-91-108353 유기철
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="fatherAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">모</td>
+    <td style="padding: 8px;">
+      국민 054902-04-165144 송혜순
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="motherAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+</table>
 					</div>
 					</div>
                 </div>
