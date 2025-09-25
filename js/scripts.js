@@ -53,11 +53,11 @@ function groomsFatherAccountNumber(){
 }
 
 // 신랑어머님 계좌번호 복사
-function groomsMatherAccountNumber(){
-	var grooms_mather_account = '110406756290 신한은행';
+function groomsMotherAccountNumber(){
+	var grooms_mother_account = '110406756290 신한은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
-	textarea.value = grooms_mather_account;
+	textarea.value = grooms_mother_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
@@ -77,11 +77,11 @@ function brideFatherAccountNumber(){
 }
 
 // 신부어머님 계좌번호 복사
-function brideMatherAccountNumber(){
-	var bride_mather_account = '05490204165144 국민은행';
+function brideMotherAccountNumber(){
+	var bride_mother_account = '05490204165144 국민은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
-	textarea.value = bride_mather_account;
+	textarea.value = bride_mother_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
