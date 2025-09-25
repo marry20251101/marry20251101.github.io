@@ -153,17 +153,44 @@
                     <div id="foldableSection">
                     <p style="font-family: 'noto sans', serif; font-size: 18px;" class="toggle-button" onclick="toggleFoldable3()">신랑측 계좌번호 확인하기<span id="toggleIcon3">▼</span></p>
                     <div class="foldable-content3" style="display: none;">
-                        <p style="font-family: 'noto sans', serif; font-size: 18px;"><br>(신랑) 신한 110-362-874526 전성진<a class="social-link rounded text-white mr-3" onclick="groomAccountNumber(); return false;" href="#!"><i class="fa-solid fa-copy fa-xs"></i></a>
-					    <br>
-							<p style="font-family: 'noto sans', serif; font-size: 18px;">(부) 신한 110-222-044752 전광덕</p>
-						<a class="btn btn-secondary rounded text-white mr-1 d-inline-flex align-items-center" 
-   onclick="groomAccountNumber(); return false;" 
-   href="#!">
-   <i class="fa-solid fa-comments-dollar fa-sm mr-2"></i>
-   복사하기
-</a>
-						<br>
-						<p style="font-family: 'noto sans', serif; font-size: 18px;">(모) 신한 110-406-756290 백순례</p><br><br>
+                    <table style="width: 100%; border-collapse: collapse; background-color: #f5f5f5; font-family: 'Noto Sans', sans-serif; font-size: 18px; color: #000;">
+  <tr>
+    <td style="padding: 8px;">신랑</td>
+    <td style="padding: 8px;">
+      신한 110-362-874526 전성진
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="groomAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">부</td>
+    <td style="padding: 8px;">
+      신한 110-222-044752 전광덕
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="fatherAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">모</td>
+    <td style="padding: 8px;">
+      신한 110-406-756290 백순례
+      <a class="btn rounded ml-2 d-inline-flex align-items-center justify-content-center" 
+         style="background-color: #000; color: #fff; width: 20px; height: 20px; padding: 0;" 
+         onclick="motherAccountNumber(); return false;" 
+         href="#!">
+         <i class="fa-solid fa-copy" style="font-size: 10px;"></i>
+      </a>
+    </td>
+  </tr>
+</table>
                     </div>
 					</div>
 					<div id="foldableSection">
