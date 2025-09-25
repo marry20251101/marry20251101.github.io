@@ -6,7 +6,7 @@
 
 // 링크 복사
 function copyLink(){
-	var url = 'https://comgongnuna.github.io/';
+	var url = 'https://marry20251101.github.io/';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
 	textarea.value = url;
@@ -18,40 +18,75 @@ function copyLink(){
 
 // 신부 계좌번호 복사
 function brideAccountNumber(){
-	var bride_account = '00000000 카카오뱅크';
+	var bride_account = '98823036750 국민은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
 	textarea.value = bride_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
-	alert("신부의 계좌번호가 복사되었습니다.\n00000000 카카오뱅크")
+	alert("신부의 계좌번호가 복사되었습니다.\n98823036750 국민은행")
 }
 
 // 신랑 계좌번호 복사
 function groomAccountNumber(){
-	var groom_account = '00000000 카카오뱅크';
+	var groom_account = '110362874526 신한은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
 	textarea.value = groom_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
-	alert("신랑의 계좌번호가 복사되었습니다.\n00000000 카카오뱅크")
+	alert("신랑의 계좌번호가 복사되었습니다.\n110362874526 신한은행")
 }
 
-// 아버님 계좌번호 복사 
+// 신랑아버님 계좌번호 복사 
 function groomsFatherAccountNumber(){
-    var grooms_father_account = '00000000 국민은행';
+    var grooms_father_account = '110222044752 신한은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
 	textarea.value = grooms_father_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
-	alert("계좌번호가 복사되었습니다.\n00000000 국민은행")
+	alert("계좌번호가 복사되었습니다.\n110222044752 신한은행")
 }
 
+// 신랑어머님 계좌번호 복사
+function groomsMatherAccountNumber(){
+	var grooms_mather_account = '110406756290 신한은행';
+	var textarea = document.createElement("textarea");
+	document.body.appendChild(textarea);
+	textarea.value = bride_account;
+	textarea.select();
+	document.execCommand("copy");
+	document.body.removeChild(textarea);
+	alert("계좌번호가 복사되었습니다.\n110406756290 신한은행")
+}
+
+// 신부아버님 계좌번호 복사
+function brideFatherAccountNumber(){
+	var bride_father_account = '65652591108353 국민은행';
+	var textarea = document.createElement("textarea");
+	document.body.appendChild(textarea);
+	textarea.value = bride_account;
+	textarea.select();
+	document.execCommand("copy");
+	document.body.removeChild(textarea);
+	alert("계좌번호가 복사되었습니다.\n65652591108353 국민은행")
+}
+
+// 신부어머님 계좌번호 복사
+function brideMatherAccountNumber(){
+	var bride_mather_account = '05490204165144 국민은행';
+	var textarea = document.createElement("textarea");
+	document.body.appendChild(textarea);
+	textarea.value = bride_account;
+	textarea.select();
+	document.execCommand("copy");
+	document.body.removeChild(textarea);
+	alert("계좌번호가 복사되었습니다.\n05490204165144 국민은행")
+}
 
 // 카카오톡 공유하기
 function kakaoShare() {
