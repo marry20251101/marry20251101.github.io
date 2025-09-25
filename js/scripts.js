@@ -57,7 +57,7 @@ function groomsMatherAccountNumber(){
 	var grooms_mather_account = '110406756290 신한은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
-	textarea.value = bride_account;
+	textarea.value = grooms_mather_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
@@ -69,7 +69,7 @@ function brideFatherAccountNumber(){
 	var bride_father_account = '65652591108353 국민은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
-	textarea.value = bride_account;
+	textarea.value = bride_father_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
@@ -81,7 +81,7 @@ function brideMatherAccountNumber(){
 	var bride_mather_account = '05490204165144 국민은행';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
-	textarea.value = bride_account;
+	textarea.value = bride_mather_account;
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
